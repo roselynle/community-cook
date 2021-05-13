@@ -1,0 +1,6 @@
+[submodule "meal-app-client"]
+	path = meal-app-client
+	url = https://github.com/roselynle/meal-app-client
+[submodule "meal-app-server"]
+	path = meal-app-server
+	url = https://github.com/roselynle/meal-app-server
