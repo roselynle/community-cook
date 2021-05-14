@@ -1,0 +1,16 @@
+version: '3'
+services:
+  
+  db:
+    container_name: test_db
+    image: mongo:latest
+    ports: 
+        - 27017:27017
+    volumes:
+      - "dbdata:/var/lib/mongodb/data"
+    environment: 
+      - MONGO_INITDB_ROOT_USERNAME=test
+      - MONGO_INITDB_DATABASE=foodApp_test
+      - MONGO_INITDB_ROOT_PASSWORD=password
+volumes:
+  dbdata:
