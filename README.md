@@ -1,4 +1,4 @@
-# Community Cook
+# PlanEat
 
 
 ## Installation & Usage
@@ -10,7 +10,18 @@
 ### Usage
 
 -   Navigate to the root directory of this repository
--   Run `bash _scripts/<script name>.sh` to run or close docker containers.
+-   Client side:
+        -   cd into `client`
+        -   run `npm install`
+        -   run `npm run dev`
+        Webpage should start up automatically on localhost:8080/
+-   Server side:
+        -   cd into `server`
+        -   run `pipenv shell`
+        -   run `pipenv install`
+        -   run `pipenv run dev`
+        Flask API will be running on localhost:5000/
+-   Database:
 
 
 ## Technologies
@@ -32,11 +43,13 @@
 
 ### Wins
 
-
+-   Good git flow and communication between team members to avoid conflicts
 
 ### Challenges
 
 -   Coming up with ideas for our app which would be feasible in the given timeframe
+-   Difficulties with sending and retrieving information with a Python backend and React frontend (e.g. when implementing authentication)
+-   Deploying an app with an api connected to Mongo database
 
 ## Bugs
 
@@ -44,7 +57,7 @@
 
 ## Future Features
 
--   
+-   Users can like and comment on the community submitted recipes
 
 ## Licence
 
