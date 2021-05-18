@@ -4,7 +4,7 @@ db.User.drop()
 db.Meal.drop()
 
 db.User.insertMany([
-    { email: "hello@hotmail.com", username: "test", password: "test", diet_req: ['vegan'], meal_plan_meals:[1,2,3,4,5]},
+    { email: "hello@hotmail.com", username: "test", password: "test", diet_req: ['vegan'], favourites: [], meal_plan_meals:[1,2,3,4,5]},
    
 ])
 
