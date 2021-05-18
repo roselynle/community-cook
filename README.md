@@ -11,16 +11,16 @@
 
 -   Navigate to the root directory of this repository
 -   Client side:
-        -   cd into `client`
-        -   run `npm install`
-        -   run `npm run dev`
-        Webpage should start up automatically on localhost:8080/
+    -   cd into `client`
+    -   run `npm install`
+    -   run `npm run dev`
+    -   Webpage should start up automatically on localhost:8080/
 -   Server side:
-        -   cd into `server`
-        -   run `pipenv shell`
-        -   run `pipenv install`
-        -   run `pipenv run dev`
-        Flask API will be running on localhost:5000/
+    -   cd into `server`
+    -   run `pipenv shell`
+    -   run `pipenv install`
+    -   run `pipenv run dev`
+    -   Flask API will be running on localhost:5000/
 -   Database:
 
 
