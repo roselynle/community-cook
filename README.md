@@ -22,14 +22,17 @@
     -   run `pipenv run dev`
     -   Flask API will be running on localhost:5000/
 -   Database:
-
+    -   Run `bash _scripts/<script name>.sh` to run or close docker containers:
+    -   `startDev.sh` - starts up db container
+    -   `stop.sh` - closes the container
+    -   `teardown.sh` - closes the containers and completely removes volumes
 
 ## Technologies
 
--   Client side: React, HTML, CSS 
-    -   Dependencies: react, react-redux, react-router-dom, react-dom
+-   Client side: React/Redux, HTML, CSS 
+    -   Dependencies: refer to the package.json file within the client folder for the full list of dependencies
 -   Server side: Python
-    -   Dependencies:  flask, flask-CORS, gunicorn
+    -   Dependencies:  flask, flask-cors, gunicorn, pymongo, flask-mail, dnspython, pytest
 
 ## Process
 
@@ -44,12 +47,14 @@
 ### Wins
 
 -   Good git flow and communication between team members to avoid conflicts
+-   Protecting the routes which require login
+-   Implmenting flask mail wherby users can get a cumulative list of ingredients (shopping list) sent to their email
 
 ### Challenges
 
 -   Coming up with ideas for our app which would be feasible in the given timeframe
--   Difficulties with sending and retrieving information with a Python backend and React frontend (e.g. when implementing authentication)
--   Deploying an app with an api connected to Mongo database
+-   Difficulties with sending and retrieving information with a Python backend and React frontend
+-   Deploying an app with an API connected to Mongo database
 
 ## Bugs
 
@@ -58,6 +63,10 @@
 ## Future Features
 
 -   Users can like and comment on the community submitted recipes
+-   Toggle button to filter recipes for the users specific dietary requirements
+-   Meal plans to be tracked and refreshed every 7 days
+-   Drag and drop favourited cards onto the meal plan
+-   Nutritional information on the recipes
 
 ## Licence
 
