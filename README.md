@@ -1,4 +1,5 @@
 # PlanEat
+[![Netlify Status](https://api.netlify.com/api/v1/badges/452c79c3-e698-482d-b061-ffce3de81966/deploy-status)](https://app.netlify.com/sites/plan-eat/deploys)
 
 A food based app that allows users to organise their seven day meal plan. Users are able to get recipe inspiration from the PlanEat community, save it to their favourites, drag and drop these onto their meal plan and send a cumulative list of ingredients to their email. In addition, there is a functionality for users to submit their own recipe with ingredients, instructions and a photo.
 
