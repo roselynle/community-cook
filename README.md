@@ -69,6 +69,7 @@ A food based app that allows users to organise their seven day meal plan. Users 
 ## Bugs
 
 -   When creating a recipe, the add ingredients section must be filled out completely with no blanks. Otherwise sending a shopping list to the email will not work
+-   When a new recipe is added it doesn't load on the recipes page straight away, it seems like you need to navigate onto another page and back or refresh for it to appear
 
 ## Future Features
 
