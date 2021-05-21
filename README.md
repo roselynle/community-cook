@@ -1,4 +1,4 @@
-# PlanEat
+# PlanEat :green_salad:
 [![Netlify Status](https://api.netlify.com/api/v1/badges/452c79c3-e698-482d-b061-ffce3de81966/deploy-status)](https://app.netlify.com/sites/plan-eat/deploys)
 ![Heroku](https://pyheroku-badge.herokuapp.com/?app=meal-prep-api&style=flat)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
