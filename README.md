@@ -1,8 +1,7 @@
 # PlanEat
 [![Netlify Status](https://api.netlify.com/api/v1/badges/452c79c3-e698-482d-b061-ffce3de81966/deploy-status)](https://app.netlify.com/sites/plan-eat/deploys)
+![Heroku](https://pyheroku-badge.herokuapp.com/?app=meal-prep-api&style=flat)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-![](preview.mp4)
 
 An app for the busy bees who don't have time to think about what to cook. PlanEat is a recipe based app that allows users to organise their seven day meal plan. Users are able to get recipe inspiration from the PlanEat community, save it to their favourites, add these onto their weekly meal plan and send a cumulative list of shopping ingredients to their email. There is also a functionality that will allow users to submit one of their own recipes to the community by adding in details such as recipe name, ingredients, instructions and a photo. React/Redux was used to build the front end whilst Python/Flask for the back end.
 
