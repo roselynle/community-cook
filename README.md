@@ -2,7 +2,9 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/452c79c3-e698-482d-b061-ffce3de81966/deploy-status)](https://app.netlify.com/sites/plan-eat/deploys)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-An app for the busy bees who want to plan their meals ahead of time. PlanEat is a recipe based app that allows users to organise their seven day meal plan. Users are able to get recipe inspiration from the PlanEat community, save it to their favourites, add these onto their meal plan and send a cumulative list of shopping ingredients to their email. In addition, there is a functionality for users to submit their own recipe with ingredients, instructions and a photo.
+![](preview.mp4)
+
+An app for the busy bees who don't have time to think about what to cook. PlanEat is a recipe based app that allows users to organise their seven day meal plan. Users are able to get recipe inspiration from the PlanEat community, save it to their favourites, add these onto their weekly meal plan and send a cumulative list of shopping ingredients to their email. There is also a functionality that will allow users to submit one of their own recipes to the community by adding in details such as recipe name, ingredients, instructions and a photo. React/Redux was used to build the front end whilst Python/Flask for the back end.
 
 ## Installation & Usage
 
@@ -33,20 +35,20 @@ An app for the busy bees who want to plan their meals ahead of time. PlanEat is 
 
 ## Technologies
 
--   Client side: React/Redux, HTML, CSS 
+-   Client side: React/Redux, CSS 
     -   Dependencies: refer to the package.json file within the client folder for the full list of dependencies
 -   Server side: Python
     -   Dependencies:  flask, flask-cors, gunicorn, pymongo, flask-mail, dnspython, pytest
 
 ## Process
 
--   Brainstormed different ideas for our food & drink related app
--   Designed the basic idea of our user interface using Figma
--   Used the GitHub project board to split up the required tasks and assign to team members
+-   Brainstorm different ideas for our food & drink related app
+-   Design the basic idea of our user interface using Figma
+-   Use the GitHub project board to split up the required tasks and assign to team members
 -   Set up the file structure using git submodules, initialised database and configured the docker containers/script files
--   Created the relevant pages and components for React front end
--   Implemented logic on the backend to retreive and send back relevant information to the front end
--   Testing with pytest and react testing library
+-   Create the relevant pages and components for React front end
+-   Implement logic on the backend to retreive and send back relevant information to the front end
+-   Test with pytest and react testing library
 -   Debugging and fine tuning our app
 -   Deploy server on Heroku and client on Netlify
 
@@ -56,7 +58,7 @@ An app for the busy bees who want to plan their meals ahead of time. PlanEat is 
 
 -   Good git flow and communication between team members to avoid conflicts
 -   Protecting the routes which require login
--   Implmenting flask mail wherby users can get a cumulative list of ingredients (shopping list) sent to their email
+-   Implmenting flask mail wherby users can get a cumulative list of ingredients sent to their email
 -   Drag and drop feature to allow users to drag recipes from their favourites and put them on their meal plan
 
 ### Challenges
